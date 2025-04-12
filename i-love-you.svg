@@ -1,0 +1,15 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Red Background -->
+  <rect width="400" height="300" fill="#ff0000" />
+  
+  <!-- Pink Heart in the center -->
+  <path d="M200,100 
+           C230,70 280,70 280,120
+           C280,170 200,220 200,220
+           C200,220 120,170 120,120
+           C120,70 170,70 200,100Z" 
+        fill="#ff69b4" />
+        
+  <!-- I Love You Text -->
+  <text x="200" y="260" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">I Love You Punya ❤️😘🫂🥺</text>
+</svg>

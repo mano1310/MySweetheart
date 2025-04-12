@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Marry Me? | Love Proposal</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <!-- Hearts animation container -->
+    <div class="hearts-container"></div>
+    
+    <!-- Celebration container for confetti effect -->
+    <div class="celebration-container"></div>
+    
+    <div class="container">
+        <h1>A Question From My Heart <i class="fas fa-heart heart-beat"></i></h1>
+        
+        <p>I was thinking, if you and me... I mean, if you could be a part of my forever, would you? 💭💞</p>
+        
+        <div class="image-container">
+            <object data="{{ url_for('static', filename='svg/i-love-you.svg') }}" type="image/svg+xml" alt="I Love You Image"></object>
+        </div>
+        
+        <h2>Do you truly love me and want to marry me? 💍👩‍❤️‍👨</h2>
+        
+        <button id="yesButton" class="btn">
+            <i class="fas fa-heart"></i> Yes, I do!
+        </button>
+        
+        <button id="noButton" class="btn" style="background-color: #999999;">
+            <i class="fas fa-times"></i> No
+        </button>
+        
+        <div style="margin-top: 20px;">
+            <a href="{{ url_for('index') }}" class="nav-link">
+                <i class="fas fa-arrow-left"></i> Back to Love Letter
+            </a>
+        </div>
+    </div>
+    
+    <!-- Custom JS -->
+    <script src="{{ url_for('static', filename='js/proposal.js') }}"></script>
+</body>
+</html>

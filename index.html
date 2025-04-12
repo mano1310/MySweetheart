@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy 100th Day | My Love Letter</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <!-- Hearts animation container -->
+    <div class="hearts-container"></div>
+    
+    <div class="container">
+        <h1>Happy 100th day of our Love and I miss you Punya❤️ <i class="fas fa-kiss-wink-heart"></i></h1>
+        
+        <div class="image-container">
+            <object data="{{ url_for('static', filename='svg/i-love-you.svg') }}" type="image/svg+xml" alt="I Love You Image"></object>
+        </div>
+        
+        <div class="message-container">
+            <p>
+                Hey Punya, my sweetheart 💑,
+            </p>
+            
+            <p>
+                From the moment our paths crossed on that unforgettable trek ⛰️, you've held a space in my heart no one else ever could ❤️. 
+                You're the most beautiful-hearted soul I've ever met — kind, warm, gentle, and real 🌟. 
+                I fell for you, not just because of how you look or speak, but because of the love that shines through your soul ✨. 
+                Since the day I met you… I've loved you. Deeply. Quietly. And endlessly 💕.
+            </p>
+            
+            <p>
+                You may not know this, but the day I realized how much you truly love me… I married you in my heart 💍. 
+                Since then, every smile, every word from you, every little gesture — it has meant the world to me 🌎. 
+                And while time has passed and things have changed, my feelings for you haven't 🔒.
+            </p>
+            
+            <p>
+                Lately, I've felt a shift… like there's some distance between us 🌊. Maybe I'm overthinking, maybe I'm just missing you too much 💭. 
+                But I feel it — in the silence, in the gaps, in the spaces where your voice and presence used to be 👂. 
+                And I just want to say this, from the deepest part of me:
+            </p>
+            
+            <p class="highlight">
+                I notice. I feel. I care. 💗
+            </p>
+            
+            <p>
+                I'm not dumb to miss the little changes in our relationship 👀. I feel every moment when you're not as present, 
+                every time the energy between us fades for a second. And it hurts… not because I blame you, but because I care so much 💔.
+            </p>
+            
+            <p>
+                All I want is us — strong, together, vulnerable, and honest 🤝. I want us to fight for each other no matter what 🛡️. 
+                I'm not asking for perfection, just for effort. I need to feel your presence again — the way you used to talk to me, 
+                share with me, laugh with me 😊. I know life gets busy… but when you love someone, you make time. You find ways 🕰️. 
+                Even a little text, even a simple "I'm thinking of you" makes all the difference 📱💌.
+            </p>
+            
+            <p>
+                Please don't let negative thoughts or overthinking build a wall between us 🧱. Whatever doubts or fears are in your heart, 
+                let me hold them with you 🫂. We don't need to have it all figured out — we just need to promise that we'll walk through it together 👣. 
+                And I promise you this: no matter what life throws at us, I'll be by your side, as your man, your partner, your future husband 👨‍❤️‍👩.
+            </p>
+            
+            <p>
+                I'm craving your presence, your time, your love 🥺. I miss you so much — even a single day without hearing from you feels incomplete 📅. 
+                I just want to hold your hand, look into your eyes, and tell you everything I've been holding in 👁️👁️.
+            </p>
+            
+            <p>
+                You're such a kind, beautiful soul, Punya… and I love you. Genuinely, truly, forever 🌹.
+            </p>
+            
+            <p>
+                I know we're meant to be ✨. I just want to feel that we're still choosing each other every single day — not out of habit, but out of love 💖.
+            </p>
+            
+            <p>
+                So please… just meet me once 🙏. Let's talk, let's reconnect, let's feel each other again ✨.
+            </p>
+            
+            <p>
+                Because I'm here, wholeheartedly… always 🌈.
+            </p>
+            
+            <p class="highlight">
+                Your faith, your love, your lovable 🦁 <i class="fas fa-heart heart-beat"></i>
+            </p>
+        </div>
+        
+        <a href="{{ url_for('proposal') }}" class="btn">
+            <i class="fas fa-arrow-right"></i> I have a question for you
+        </a>
+    </div>
+    
+    <!-- Custom JS -->
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    
+    <!-- Icons replacement since Font Awesome might not have all icons -->
+    <script>
+        // Replace missing Font Awesome icons with equivalent ones
+        document.addEventListener('DOMContentLoaded', function() {
+            // Replace sparkles with star
+            const sparklesIcons = document.querySelectorAll('.fa-sparkles');
+            sparklesIcons.forEach(icon => {
+                icon.classList.remove('fa-sparkles');
+                icon.classList.add('fa-star');
+            });
+            
+            // Replace rose with flower
+            const roseIcons = document.querySelectorAll('.fa-rose');
+            roseIcons.forEach(icon => {
+                icon.classList.remove('fa-rose');
+                icon.classList.add('fa-seedling');
+            });
+            
+            // Replace couple with users
+            const coupleIcons = document.querySelectorAll('.fa-couple');
+            coupleIcons.forEach(icon => {
+                icon.classList.remove('fa-couple');
+                icon.classList.add('fa-users');
+            });
+        });
+    </script>
+</body>
+</html>

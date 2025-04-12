@@ -1,0 +1,23 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Stem -->
+  <path d="M 50 95 L 50 60" stroke="#2E8B57" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Leaf -->
+  <path d="M 50 75 C 40 65, 30 75, 25 65 C 20 55, 35 55, 45 65" fill="#3CB371" stroke="#2E8B57" stroke-width="1"/>
+  
+  <!-- Rose Bloom -->
+  <g transform="translate(50, 50)">
+    <!-- Outer petals -->
+    <path d="M 0 -25 C 15 -25, 15 -10, 0 -5 C -15 -10, -15 -25, 0 -25" fill="#ff3399" stroke="#e6005c" stroke-width="1"/>
+    <path d="M 0 -25 C 15 -25, 25 -15, 10 0 C 15 -15, 5 -25, 0 -25" fill="#ff3399" transform="rotate(45)" stroke="#e6005c" stroke-width="1"/>
+    <path d="M 0 -25 C 15 -25, 25 -15, 10 0 C 15 -15, 5 -25, 0 -25" fill="#ff3399" transform="rotate(90)" stroke="#e6005c" stroke-width="1"/>
+    <path d="M 0 -25 C 15 -25, 25 -15, 10 0 C 15 -15, 5 -25, 0 -25" fill="#ff3399" transform="rotate(135)" stroke="#e6005c" stroke-width="1"/>
+    <path d="M 0 -25 C 15 -25, 25 -15, 10 0 C 15 -15, 5 -25, 0 -25" fill="#ff3399" transform="rotate(180)" stroke="#e6005c" stroke-width="1"/>
+    <path d="M 0 -25 C 15 -25, 25 -15, 10 0 C 15 -15, 5 -25, 0 -25" fill="#ff3399" transform="rotate(225)" stroke="#e6005c" stroke-width="1"/>
+    <path d="M 0 -25 C 15 -25, 25 -15, 10 0 C 15 -15, 5 -25, 0 -25" fill="#ff3399" transform="rotate(270)" stroke="#e6005c" stroke-width="1"/>
+    <path d="M 0 -25 C 15 -25, 25 -15, 10 0 C 15 -15, 5 -25, 0 -25" fill="#ff3399" transform="rotate(315)" stroke="#e6005c" stroke-width="1"/>
+    
+    <!-- Inner petals -->
+    <circle cx="0" cy="0" r="10" fill="#ff6699"/>
+  </g>
+</svg>
